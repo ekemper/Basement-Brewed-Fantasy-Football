@@ -9,7 +9,7 @@ def create_api_blueprint():
     CORS(api)
 
     # Register routes
-    from .routes import register_routes
+    from .api.routes import register_routes
     register_routes(api)
 
     return api

@@ -19,7 +19,7 @@ def create_app(test_config=None):
     
     # Load configuration
     if test_config is None:
-        app.config.from_object('config.settings')
+        app.config.from_object('server.config.settings')
     else:
         app.config.update(test_config)
     
@@ -72,4 +72,4 @@ if __name__ == '__main__':
         app.config['SESSION_COOKIE_HTTPONLY'] = True
         app.config['SESSION_COOKIE_SAMESITE'] = 'Strict'
     
-    app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5000))) 
+    app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5001))) 

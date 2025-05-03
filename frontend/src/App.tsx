@@ -1,77 +1,109 @@
-import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import Auth from './components/Auth';
-import Dashboard from './components/Dashboard';
-import { api } from './config/api';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route, Navigate, useNavigate } from "react-router";
+import SignIn from "./pages/AuthPages/SignIn";
+import SignUp from "./pages/AuthPages/SignUp";
+import NotFound from "./pages/OtherPage/NotFound";
+import UserProfiles from "./pages/UserProfiles";
+import Videos from "./pages/UiElements/Videos";
+import Images from "./pages/UiElements/Images";
+import Alerts from "./pages/UiElements/Alerts";
+import Badges from "./pages/UiElements/Badges";
+import Avatars from "./pages/UiElements/Avatars";
+import Buttons from "./pages/UiElements/Buttons";
+import LineChart from "./pages/Charts/LineChart";
+import BarChart from "./pages/Charts/BarChart";
+import Calendar from "./pages/Calendar";
+import BasicTables from "./pages/Tables/BasicTables";
+import FormElements from "./pages/Forms/FormElements";
+import Blank from "./pages/Blank";
+import AppLayout from "./layout/AppLayout";
+import { ScrollToTop } from "./components/common/ScrollToTop";
+import ExampleHome from "./pages/Dashboard/Home";
+import Dashboard from "./pages/Dashboard/Dashboard";
+import React from "react";
 
-const App: React.FC = () => {
-  const [health, setHealth] = useState<{status: string} | null>(null);
-  const [error, setError] = useState<string | null>(null);
-  const [token, setToken] = useState<string | null>(localStorage.getItem('token'));
+function isTokenValid(token: string | null): boolean {
+  if (!token) return false;
+  try {
+    const payload = JSON.parse(atob(token.split(".")[1]));
+    if (!payload.exp) return false;
+    return Date.now() < payload.exp * 1000;
+  } catch {
+    return false;
+  }
+}
 
-  const handleAuthSuccess = (newToken: string) => {
-    setToken(newToken);
-    localStorage.setItem('token', newToken);
-  };
+function ProtectedRoute({ children }: { children: React.ReactElement }) {
+  const token = localStorage.getItem("token");
+  if (!isTokenValid(token)) {
+    localStorage.removeItem("token");
+    return <Navigate to="/signin" replace />;
+  }
+  return children;
+}
 
-  useEffect(() => {
-    api.get('/api/health')
-      .then(data => setHealth(data))
-      .catch(err => setError(err.message));
-  }, []);
+function Logout() {
+  const navigate = useNavigate();
+  React.useEffect(() => {
+    localStorage.removeItem("token");
+    navigate("/signin", { replace: true });
+  }, [navigate]);
+  return null;
+}
 
+export default function App() {
   return (
-    <Router>
-      <div className="App">
+    <>
+      <Router>
+        <ScrollToTop />
         <Routes>
-          <Route 
-            path="/auth" 
-            element={
-              token ? (
-                <Navigate to="/dashboard" replace />
-              ) : (
-                <Auth onAuthSuccess={handleAuthSuccess} />
-              )
-            } 
-          />
-          <Route 
-            path="/dashboard" 
-            element={
-              token ? (
-                <Dashboard />
-              ) : (
-                <Navigate to="/auth" replace />
-              )
-            } 
-          />
-          <Route 
-            path="/" 
-            element={
-              token ? (
-                <Navigate to="/dashboard" replace />
-              ) : (
-                <Navigate to="/auth" replace />
-              )
-            } 
-          />
-          {/* Add more routes as needed */}
+          {/* Dashboard Layout */}
+          <Route element={<AppLayout />}>
+            <Route index path="/" element={<Navigate to="/dashboard" replace />} />
+            <Route path="/examples" element={<ExampleHome />} />
+            <Route
+              path="/dashboard"
+              element={
+                <ProtectedRoute>
+                  <Dashboard />
+                </ProtectedRoute>
+              }
+            />
+
+            {/* Others Page */}
+            <Route path="/profile" element={<UserProfiles />} />
+            <Route path="/calendar" element={<Calendar />} />
+            <Route path="/blank" element={<Blank />} />
+
+            {/* Forms */}
+            <Route path="/form-elements" element={<FormElements />} />
+
+            {/* Tables */}
+            <Route path="/basic-tables" element={<BasicTables />} />
+
+            {/* Ui Elements */}
+            <Route path="/alerts" element={<Alerts />} />
+            <Route path="/avatars" element={<Avatars />} />
+            <Route path="/badge" element={<Badges />} />
+            <Route path="/buttons" element={<Buttons />} />
+            <Route path="/images" element={<Images />} />
+            <Route path="/videos" element={<Videos />} />
+
+            {/* Charts */}
+            <Route path="/line-chart" element={<LineChart />} />
+            <Route path="/bar-chart" element={<BarChart />} />
+
+            {/* Logout Route */}
+            <Route path="/logout" element={<Logout />} />
+          </Route>
+
+          {/* Auth Layout */}
+          <Route path="/signin" element={<SignIn />} />
+          <Route path="/signup" element={<SignUp />} />
+
+          {/* Fallback Route */}
+          <Route path="*" element={<NotFound />} />
         </Routes>
-
-        {/* Health status section */}
-        <div className="health-status">
-          <h1>API Health Status</h1>
-          {error ? (
-            <div className="error">Error: {error}</div>
-          ) : health ? (
-            <div className="status">Status: {health.status}</div>
-          ) : (
-            <div>Loading...</div>
-          )}
-        </div>
-      </div>
-    </Router>
+      </Router>
+    </>
   );
-};
-
-export default App;
+}
