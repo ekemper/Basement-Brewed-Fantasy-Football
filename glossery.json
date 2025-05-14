@@ -1,0 +1,50 @@
+{
+  "g": {
+    "definition": "Games played",
+    "context": "Number of games the player has participated in"
+  },
+  "cmp": {
+    "definition": "Completions",
+    "context": "Number of completed passes by a quarterback"
+  },
+  "att": {
+    "definition": "Attempts",
+    "context": "Number of pass attempts by a quarterback"
+  },
+  "pyd": {
+    "definition": "Passing Yards",
+    "context": "Total yards gained through passing"
+  },
+  "y/a": {
+    "definition": "Yards per Attempt",
+    "context": "Passing yards divided by passing attempts — a measure of efficiency"
+  },
+  "ptd": {
+    "definition": "Passing Touchdowns",
+    "context": "Number of touchdown passes thrown"
+  },
+  "int": {
+    "definition": "Interceptions",
+    "context": "Number of times the quarterback's pass was intercepted"
+  },
+  "rsh": {
+    "definition": "Rushes (or Rushing Attempts)",
+    "context": "Number of times the player carried the ball on a run play"
+  },
+  "rshyd": {
+    "definition": "Rushing Yards",
+    "context": "Total yards gained through rushing"
+  },
+  "y/rsh": {
+    "definition": "Yards per Rush",
+    "context": "Rushing yards divided by rushing attempts — another efficiency metric"
+  },
+  "rshtd": {
+    "definition": "Rushing Touchdowns",
+    "context": "Number of touchdowns scored via running the ball"
+  },
+  "fpt": {
+    "definition": "Fantasy Points",
+    "context": "Total points accumulated based on the league's scoring system"
+  }
+} 
