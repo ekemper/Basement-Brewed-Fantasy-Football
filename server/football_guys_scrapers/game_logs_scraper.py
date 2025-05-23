@@ -8,35 +8,35 @@ teams = [
     ("ARI", "Arizona Cardinals"),
     ("ATL", "Atlanta Falcons"),
     ("BAL", "Baltimore Ravens"),
-    # ("BUF", "Buffalo Bills"),
-    # ("CAR", "Carolina Panthers"),
-    # ("CHI", "Chicago Bears"),
-    # ("CIN", "Cincinnati Bengals"),
-    # ("CLE", "Cleveland Browns"),
-    # ("DAL", "Dallas Cowboys"),
-    # ("DEN", "Denver Broncos"),
-    # ("DET", "Detroit Lions"),
-    # ("GB", "Green Bay Packers"),
-    # ("HOU", "Houston Texans"),
-    # ("IND", "Indianapolis Colts"),
-    # ("JAX", "Jacksonville Jaguars"),
-    # ("KC", "Kansas City Chiefs"),
-    # ("LAC", "Los Angeles Chargers"),
-    # ("LAR", "Los Angeles Rams"),
-    # ("LV", "Las Vegas Raiders"),
-    # ("MIA", "Miami Dolphins"),
-    # ("MIN", "Minnesota Vikings"),
-    # ("NE", "New England Patriots"),
-    # ("NO", "New Orleans Saints"),
-    # ("NYG", "New York Giants"),
-    # ("NYJ", "New York Jets"),
-    # ("PHI", "Philadelphia Eagles"),
-    # ("PIT", "Pittsburgh Steelers"),
-    # ("SEA", "Seattle Seahawks"),
-    # ("SF", "San Francisco 49ers"),
-    # ("TB", "Tampa Bay Buccaneers"),
-    # ("TEN", "Tennessee Titans"),
-    # ("WAS", "Washington Commanders"),
+    ("BUF", "Buffalo Bills"),
+    ("CAR", "Carolina Panthers"),
+    ("CHI", "Chicago Bears"),
+    ("CIN", "Cincinnati Bengals"),
+    ("CLE", "Cleveland Browns"),
+    ("DAL", "Dallas Cowboys"),
+    ("DEN", "Denver Broncos"),
+    ("DET", "Detroit Lions"),
+    ("GB", "Green Bay Packers"),
+    ("HOU", "Houston Texans"),
+    ("IND", "Indianapolis Colts"),
+    ("JAX", "Jacksonville Jaguars"),
+    ("KC", "Kansas City Chiefs"),
+    ("LAC", "Los Angeles Chargers"),
+    ("LAR", "Los Angeles Rams"),
+    ("LV", "Las Vegas Raiders"),
+    ("MIA", "Miami Dolphins"),
+    ("MIN", "Minnesota Vikings"),
+    ("NE", "New England Patriots"),
+    ("NO", "New Orleans Saints"),
+    ("NYG", "New York Giants"),
+    ("NYJ", "New York Jets"),
+    ("PHI", "Philadelphia Eagles"),
+    ("PIT", "Pittsburgh Steelers"),
+    ("SEA", "Seattle Seahawks"),
+    ("SF", "San Francisco 49ers"),
+    ("TB", "Tampa Bay Buccaneers"),
+    ("TEN", "Tennessee Titans"),
+    ("WAS", "Washington Commanders"),
 ]
 
 COLUMNS = [
@@ -198,5 +198,8 @@ for team_code, team_name in teams:
         print(f"Error scraping {team_code}: {e}")
 
 df = pd.DataFrame(all_data, columns=COLUMNS)
-df.to_csv("../football_guys_scrapers/data/all_teams_game_logs.csv", index=False)
-print("Saved all_teams_game_logs.csv")
+
+df.to_csv("../football_guys_scrapers/data/fbg_game_logs.csv", index=False)
+df.to_json("../football_guys_scrapers/data/fbg_game_logs.json", orient="records", indent=2)
+
+print("Saved game_logs.csv and game_logs.json")
