@@ -1,0 +1,80 @@
+name,week,team,rsh,rshyd,rshtd,targ,rec,recyd,rectd
+Nelson Agholor,1,BAL,0,0,0,1,1,6,0
+Rashod Bateman,1,BAL,0,0,0,5,2,53,0
+Zay Flowers,1,BAL,2,14,0,10,6,37,0
+Jermaine Burton,2,CIN,0,0,0,2,1,47,0
+Ja'Marr Chase,2,CIN,0,0,0,5,4,35,0
+Andrei Iosivas,2,CIN,0,0,0,4,2,7,2
+Trenton Irwin,2,CIN,0,0,0,6,1,5,0
+Drake London,3,ATL,0,0,0,9,6,67,1
+Ray-Ray McCloud III,3,ATL,1,20,0,3,2,17,0
+Darnell Mooney,3,ATL,0,0,0,8,8,66,0
+Quentin Johnston,4,LAC,1,4,0,5,1,9,0
+Ladd McConkey,4,LAC,0,0,0,7,5,67,1
+Joshua Palmer,4,LAC,0,0,0,4,3,36,0
+Chris Olave,5,NO,0,0,0,4,2,10,0
+Rashid Shaheed,5,NO,0,0,0,9,4,86,1
+Mason Tipton,5,NO,0,0,0,4,1,2,0
+Brandon Aiyuk,7,SF,0,0,0,6,2,23,0
+Ronnie Bell,7,SF,0,0,0,2,1,10,0
+Chris Conley,7,SF,0,0,0,2,0,0,0
+Jacob Cowing,7,SF,0,0,0,3,2,50,0
+Ricky Pearsall,7,SF,0,0,0,5,3,21,0
+Jakobi Meyers,8,LV,0,0,0,7,6,52,1
+Tre Tucker,8,LV,1,7,0,3,2,26,0
+DJ Turner,8,LV,1,4,0,4,4,28,1
+Rakim Jarrett,9,TB,0,0,0,1,1,9,0
+Trey Palmer,9,TB,0,0,0,4,2,33,0
+Sterling Shepard,9,TB,2,21,0,5,4,48,0
+Troy Franklin,10,DEN,0,0,0,2,1,9,0
+Lil'Jordan Humphrey,10,DEN,0,0,0,3,2,23,0
+Marvin Mims Jr.,10,DEN,3,17,0,4,4,13,0
+Courtland Sutton,10,DEN,0,0,0,9,6,70,1
+Devaughn Vele,10,DEN,0,0,0,4,4,39,1
+Amari Cooper,11,BUF,0,0,0,3,2,55,0
+Mack Hollins,11,BUF,0,0,0,2,2,27,0
+Curtis Samuel,11,BUF,0,0,0,6,5,58,1
+Khalil Shakir,11,BUF,0,0,0,12,8,70,0
+Xavier Legette,12,CAR,0,0,0,6,4,56,0
+David Moore,12,CAR,0,0,0,10,6,81,1
+Adam Thielen,12,CAR,0,0,0,4,3,57,0
+Deven Thompkins,12,CAR,0,0,0,3,3,13,0
+Terrace Marshall Jr.,13,LV,0,0,0,1,0,0,0
+Jakobi Meyers,13,LV,0,0,0,11,6,97,0
+Tre Tucker,13,LV,1,11,0,1,1,58,1
+DJ Turner,13,LV,0,0,0,1,1,25,0
+DJ Chark,14,LAC,0,0,0,1,1,9,0
+Derius Davis,14,LAC,1,0,0,4,2,1,0
+Quentin Johnston,14,LAC,0,0,0,7,5,48,1
+Joshua Palmer,14,LAC,0,0,0,9,6,78,0
+Jalen Reagor,14,LAC,0,0,0,1,1,4,0
+Jerry Jeudy,15,CLE,0,0,0,14,11,108,0
+Elijah Moore,15,CLE,0,0,0,6,2,-1,0
+Jamari Thrash,15,CLE,0,0,0,1,0,0,0
+Michael Woods II,15,CLE,0,0,0,3,2,7,0
+Nico Collins,16,HOU,0,0,0,10,7,60,0
+Tank Dell,16,HOU,0,0,0,7,6,98,1
+Xavier Hutchinson,16,HOU,0,0,0,1,1,8,0
+Robert Woods,16,HOU,0,0,0,6,3,19,0
+Calvin Austin III,17,PIT,0,0,0,5,4,31,0
+Van Jefferson,17,PIT,0,0,0,1,0,0,0
+George Pickens,17,PIT,0,0,0,7,3,50,0
+Mike Williams,17,PIT,0,0,0,2,0,0,0
+Troy Franklin,18,DEN,0,0,0,2,2,12,0
+Lil'Jordan Humphrey,18,DEN,0,0,0,2,2,26,0
+Marvin Mims Jr.,18,DEN,0,0,0,5,5,51,2
+Courtland Sutton,18,DEN,0,0,0,7,5,98,1
+Devaughn Vele,18,DEN,0,0,0,4,4,50,1
+Nico Collins,20,HOU,0,0,0,8,5,81,0
+Xavier Hutchinson,20,HOU,0,0,0,6,4,52,0
+John Metchie III,20,HOU,0,0,0,2,2,35,0
+Jared Wayne,20,HOU,0,0,0,2,0,0,0
+Keon Coleman,21,BUF,0,0,0,4,1,12,0
+Amari Cooper,21,BUF,0,0,0,4,4,33,0
+Mack Hollins,21,BUF,0,0,0,4,3,73,1
+Curtis Samuel,21,BUF,0,0,0,3,1,4,1
+Khalil Shakir,21,BUF,0,0,0,7,6,46,0
+A.J. Brown,22,PHI,0,0,0,5,3,43,1
+Jahan Dotson,22,PHI,0,0,0,3,2,42,0
+DeVonta Smith,22,PHI,0,0,0,5,4,69,1
+Johnny Wilson,22,PHI,0,0,0,1,0,0,0

@@ -1,0 +1,80 @@
+name,week,team,rsh,rshyd,rshtd,targ,rec,recyd,rectd
+Greg Dortch,1,ARI,1,4,0,8,6,47,0
+Marvin Harrison Jr.,1,ARI,0,0,0,3,1,4,0
+Michael Wilson,1,ARI,0,0,0,2,1,5,1
+Robbie Chosen,2,MIA,0,0,0,4,1,5,0
+Braxton Berrios,2,MIA,0,0,0,1,0,0,0
+Grant DuBose,2,MIA,0,0,0,3,1,13,0
+Tyreek Hill,2,MIA,1,12,0,6,3,24,0
+Jaylen Waddle,2,MIA,1,4,0,4,4,41,0
+Gabe Davis,3,JAX,0,0,0,6,2,18,0
+Devin Duvernay,3,JAX,0,0,0,1,1,-1,0
+Christian Kirk,3,JAX,0,0,0,10,8,79,0
+Brian Thomas Jr.,3,JAX,0,0,0,9,5,48,0
+Parker Washington,3,JAX,0,0,0,3,2,18,0
+Nelson Agholor,4,BAL,0,0,0,3,2,10,0
+Rashod Bateman,4,BAL,0,0,0,1,1,23,0
+Zay Flowers,4,BAL,0,0,0,2,1,10,0
+Nico Collins,5,HOU,0,0,0,2,2,78,1
+Tank Dell,5,HOU,1,-5,0,4,4,38,0
+Stefon Diggs,5,HOU,0,0,0,8,6,82,0
+Xavier Hutchinson,5,HOU,0,0,0,3,2,31,0
+Allen Lazard,6,NYJ,0,0,0,7,6,114,1
+Mike Williams,6,NYJ,0,0,0,3,0,0,0
+Garrett Wilson,6,NYJ,0,0,0,10,8,107,1
+Tyler Boyd,7,TEN,0,0,0,5,5,43,0
+DeAndre Hopkins,7,TEN,0,0,0,1,1,-2,0
+Calvin Ridley,7,TEN,0,0,0,9,3,42,0
+Nick Westbrook-Ikhine,7,TEN,0,0,0,4,2,10,1
+Jake Bobo,8,SEA,0,0,0,1,1,15,0
+Tyler Lockett,8,SEA,0,0,0,3,1,9,0
+Laviska Shenault Jr.,8,SEA,0,0,0,1,1,10,0
+Jaxon Smith-Njigba,8,SEA,0,0,0,7,6,69,0
+Odell Beckham Jr.,9,MIA,0,0,0,3,3,15,0
+Tyreek Hill,9,MIA,0,0,0,5,4,80,0
+Jaylen Waddle,9,MIA,0,0,0,2,2,-4,1
+Malik Washington,9,MIA,1,9,0,0,0,0,0
+Josh Downs,10,IND,0,0,0,10,7,72,0
+Ashton Dulin,10,IND,1,7,0,0,0,0,0
+Adonai Mitchell,10,IND,0,0,0,6,6,71,0
+Alec Pierce,10,IND,0,0,0,7,4,81,1
+Mecole Hardman,11,KC,1,9,0,3,2,12,0
+DeAndre Hopkins,11,KC,0,0,0,4,3,29,0
+JuJu Smith-Schuster,11,KC,0,0,0,1,1,8,0
+Justin Watson,11,KC,0,0,0,2,2,26,0
+Xavier Worthy,11,KC,1,7,0,5,4,61,1
+Jauan Jennings,13,SF,0,0,0,5,3,56,0
+Ricky Pearsall,13,SF,0,0,0,1,0,0,0
+Deebo Samuel Sr.,13,SF,0,0,0,5,4,20,0
+Tutu Atwell,14,LAR,0,0,0,3,3,45,0
+Cooper Kupp,14,LAR,0,0,0,8,5,92,1
+Puka Nacua,14,LAR,5,16,1,14,12,162,1
+Demarcus Robinson,14,LAR,0,0,0,1,0,0,0
+Tim Patrick,15,DET,0,0,0,8,4,30,1
+Allen Robinson II,15,DET,0,0,0,1,0,0,0
+Amon-Ra St. Brown,15,DET,0,0,0,18,14,193,1
+Jameson Williams,15,DET,0,0,0,5,3,37,1
+Javon Baker,16,NE,0,0,0,1,0,0,0
+Kendrick Bourne,16,NE,0,0,0,2,2,18,0
+Kayshon Boutte,16,NE,0,0,0,7,5,95,1
+DeMario Douglas,16,NE,1,6,0,5,4,33,0
+Davante Adams,17,NYJ,0,0,0,8,5,47,0
+Allen Lazard,17,NYJ,0,0,0,3,1,9,0
+Garrett Wilson,17,NYJ,0,0,0,8,7,66,1
+Javon Baker,18,NE,0,0,0,1,1,12,0
+Kendrick Bourne,18,NE,0,0,0,2,2,12,0
+Kayshon Boutte,18,NE,0,0,0,7,7,117,1
+DeMario Douglas,18,NE,0,0,0,4,3,34,0
+Troy Franklin,19,DEN,0,0,0,3,2,54,1
+Marvin Mims Jr.,19,DEN,2,1,0,4,2,12,0
+Courtland Sutton,19,DEN,0,0,0,9,5,75,0
+Devaughn Vele,19,DEN,0,0,0,2,0,0,0
+Nelson Agholor,20,BAL,0,0,0,1,0,0,0
+Rashod Bateman,20,BAL,0,0,0,5,4,66,1
+Anthony Miller,20,BAL,0,0,0,1,1,16,0
+Steven Sims,20,BAL,0,0,0,1,1,4,0
+Tylan Wallace,20,BAL,0,0,0,1,1,27,0
+Marquise Brown,21,KC,0,0,0,5,3,35,0
+DeAndre Hopkins,21,KC,0,0,0,2,1,11,0
+JuJu Smith-Schuster,21,KC,0,0,0,3,2,60,0
+Xavier Worthy,21,KC,2,16,0,7,6,85,1
