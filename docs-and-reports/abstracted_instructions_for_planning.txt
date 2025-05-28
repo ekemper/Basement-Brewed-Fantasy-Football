@@ -1,0 +1,20 @@
+
+Here are some more general instructions:
+
+
+The current patterns, conventions, and configuration for this app (fastapi-k8-proto) should be maintained at all cost.
+
+The instructions should break the process down in to discrete, testable steps.
+
+Each step should have a clear goal, a clear set of actions to be performed by the ai agent, and a strategy for confirming that the actions were sucessfull.
+
+In cases where there are code edits, the ai agent is to perform the changes.
+
+In cases where there are commands to be run, the ai agent is to run them in the chat window context and parse the output for errors and other actionable information.
+
+Be wary of over engineering things. If there is a simple way to do something that gets 80% of the value with 20% the complexity, opt for that implementation.
+
+
+
+
+For the plan you create, please create a md document in the root of the project and put the instructions there for safe keeping

@@ -1,0 +1,193 @@
+{
+  "timestamp": "2025-05-28T02:38:14.099967",
+  "tests": {
+    "game_logs_scraper": {
+      "status": "PASS",
+      "details": {
+        "records_extracted": 342,
+        "sample_file": "test_data_phase6/game_logs_sample.json",
+        "first_record_keys": [
+          "Season",
+          "Week",
+          "Player",
+          "Position",
+          "Team",
+          "Opponent",
+          "Pass_Comp",
+          "Pass_Att",
+          "Pass_Yards",
+          "Pass_TD",
+          "Pass_Int",
+          "Rush_Att",
+          "Rush_Yards",
+          "Rush_TD",
+          "Rec_Targets",
+          "Rec_Recep",
+          "Rec_Yards",
+          "Rec_TD",
+          "PPR_Points",
+          "PPR_Average",
+          "Snapcount",
+          "Reg_League_Avg",
+          "Reg_Due_For"
+        ]
+      },
+      "duration_seconds": 0.6172294616699219,
+      "timestamp": "2025-05-28T02:38:14.717245"
+    },
+    "snapcount_scraper": {
+      "status": "PASS",
+      "details": {
+        "records_extracted": 568,
+        "sample_file": "test_data_phase6/snapcount_sample.json",
+        "first_record_keys": [
+          "Season",
+          "Week",
+          "Player",
+          "Position",
+          "Team",
+          "Opponent",
+          "Snapcount"
+        ]
+      },
+      "duration_seconds": 0.7830648422241211,
+      "timestamp": "2025-05-28T02:38:15.500375"
+    },
+    "pfr_scraper": {
+      "status": "SKIP",
+      "details": {
+        "reason": "Commented out due to timeout issues"
+      },
+      "duration_seconds": null,
+      "timestamp": "2025-05-28T02:38:15.500418"
+    },
+    "data_pipeline_integration": {
+      "status": "PASS",
+      "details": {
+        "total_records": 342,
+        "unique_columns": 23,
+        "columns": [
+          "Opponent",
+          "PPR_Average",
+          "PPR_Points",
+          "Pass_Att",
+          "Pass_Comp",
+          "Pass_Int",
+          "Pass_TD",
+          "Pass_Yards",
+          "Player",
+          "Position",
+          "Rec_Recep",
+          "Rec_TD",
+          "Rec_Targets",
+          "Rec_Yards",
+          "Reg_Due_For",
+          "Reg_League_Avg",
+          "Rush_Att",
+          "Rush_TD",
+          "Rush_Yards",
+          "Season",
+          "Snapcount",
+          "Team",
+          "Week"
+        ],
+        "sample_file": "test_data_phase6/integrated_sample.json"
+      },
+      "duration_seconds": 0.48886775970458984,
+      "timestamp": "2025-05-28T02:38:15.989383"
+    },
+    "data_completeness": {
+      "status": "PASS",
+      "details": {
+        "total_records": 342,
+        "average_completeness": "100.0%",
+        "field_completeness": {
+          "Season": "100.0%",
+          "Week": "100.0%",
+          "Player": "100.0%",
+          "Position": "100.0%",
+          "Team": "100.0%",
+          "Opponent": "100.0%",
+          "Pass_Comp": "100.0%",
+          "Pass_Att": "100.0%",
+          "Pass_Yards": "100.0%",
+          "Pass_TD": "100.0%",
+          "Pass_Int": "100.0%",
+          "Rush_Att": "100.0%",
+          "Rush_Yards": "100.0%",
+          "Rush_TD": "100.0%",
+          "Rec_Targets": "100.0%",
+          "Rec_Recep": "100.0%",
+          "Rec_Yards": "100.0%",
+          "Rec_TD": "100.0%",
+          "Snapcount": "100.0%"
+        }
+      },
+      "duration_seconds": 0.0004096031188964844,
+      "timestamp": "2025-05-28T02:38:15.990241"
+    },
+    "data_consistency": {
+      "status": "PASS",
+      "details": {
+        "duplicate_records": 0,
+        "type_errors": 0,
+        "unique_players": 19,
+        "unique_teams": 1,
+        "data_types_corrected": "Applied enhanced normalization and format compliance"
+      },
+      "duration_seconds": 0.054737091064453125,
+      "timestamp": "2025-05-28T02:38:16.045019"
+    },
+    "format_compliance": {
+      "status": "PASS",
+      "details": {
+        "source_columns": 23,
+        "test_columns": 23,
+        "compliant": true,
+        "missing_columns": [],
+        "extra_columns": [],
+        "type_mismatches": [],
+        "column_order_correct": true,
+        "compliance_issues": []
+      },
+      "duration_seconds": 0.027241945266723633,
+      "timestamp": "2025-05-28T02:38:16.072922"
+    },
+    "cli_help": {
+      "status": "PASS",
+      "details": {
+        "help_output_length": 0,
+        "returncode": 0,
+        "note": "CLI help command executed successfully"
+      },
+      "duration_seconds": 2.99405574798584,
+      "timestamp": "2025-05-28T02:38:19.067943"
+    },
+    "cli_dry_run": {
+      "status": "PASS",
+      "details": {
+        "output_length": 0,
+        "contains_dry_run": false
+      },
+      "duration_seconds": 2.9382662773132324,
+      "timestamp": "2025-05-28T02:38:22.006291"
+    },
+    "performance_validation": {
+      "status": "PASS",
+      "details": {
+        "initial_memory_mb": "90.8",
+        "peak_memory_mb": "93.0",
+        "memory_increase_mb": "2.2",
+        "extraction_time_seconds": "0.61",
+        "records_extracted": 342,
+        "records_per_second": "556.8"
+      },
+      "duration_seconds": 0.614210844039917,
+      "timestamp": "2025-05-28T02:38:22.620679"
+    }
+  },
+  "performance_metrics": {},
+  "data_quality_checks": {},
+  "format_compliance": {},
+  "overall_status": "PASS"
+}

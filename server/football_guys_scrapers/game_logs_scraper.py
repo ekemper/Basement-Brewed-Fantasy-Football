@@ -120,7 +120,9 @@ def scrape_team(team_code, team_name):
             for i, td in enumerate(tds):
                 week = i + 1
                 opp = opps[i] if i < len(opps) else ""
-                stat_text = td.decode_contents().replace("<br>", "\n").strip()
+                # Fix: Handle both <br> and <br/> tags using regex
+                stat_text = td.decode_contents()
+                stat_text = re.sub(r'<br\s*/?>', '\n', stat_text).strip()
                 stat_lines = [line.strip() for line in stat_text.split("\n") if line.strip()]
                 # Default all stats to 0
                 stats = {
@@ -189,17 +191,18 @@ def scrape_team(team_code, team_name):
                 all_rows.append(row)
     return all_rows
 
-all_data = []
-for team_code, team_name in teams:
-    try:
-        all_data.extend(scrape_team(team_code, team_name))
-        time.sleep(1)
-    except Exception as e:
-        print(f"Error scraping {team_code}: {e}")
+if __name__ == "__main__":
+    all_data = []
+    for team_code, team_name in teams:
+        try:
+            all_data.extend(scrape_team(team_code, team_name))
+            time.sleep(1)
+        except Exception as e:
+            print(f"Error scraping {team_code}: {e}")
 
-df = pd.DataFrame(all_data, columns=COLUMNS)
+    df = pd.DataFrame(all_data, columns=COLUMNS)
 
-df.to_csv("../football_guys_scrapers/data/fbg_game_logs.csv", index=False)
-df.to_json("../football_guys_scrapers/data/fbg_game_logs.json", orient="records", indent=2)
+    df.to_csv("../football_guys_scrapers/data/fbg_game_logs.csv", index=False)
+    df.to_json("../football_guys_scrapers/data/fbg_game_logs.json", orient="records", indent=2)
 
-print("Saved game_logs.csv and game_logs.json")
+    print("Saved game_logs.csv and game_logs.json")
