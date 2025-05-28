@@ -1,0 +1,36 @@
+name              , week, team, targ, rec, recyd, rectd
+Pat Freiermuth    ,    1, PIT ,    4,   4,    27,     0
+MyCole Pruitt     ,    1, PIT ,    2,   1,     9,     0
+Darnell Washington,    1, PIT ,    1,   1,     5,     0
+Grant Calcaterra  ,    2, PHI ,    2,   2,    19,     0
+Dallas Goedert    ,    2, PHI ,    4,   3,    38,     0
+Noah Gray         ,    3, KC  ,    2,   1,    13,     0
+Travis Kelce      ,    3, KC  ,    5,   4,    30,     0
+Taysom Hill       ,    4, NO  ,    0,   0,     0,     0
+Juwan Johnson     ,    4, NO  ,    3,   2,    13,     0
+Cade Otton        ,    5, TB  ,    4,   3,    44,     0
+Ja'Tavion Sanders ,    6, CAR ,    7,   5,    49,     0
+Ian Thomas        ,    6, CAR ,    3,   0,     0,     0
+AJ Barner         ,    7, SEA ,    1,   1,     5,     0
+Noah Fant         ,    7, SEA ,    4,   4,    65,     0
+Ryan Miller       ,    8, TB  ,    5,   3,    19,     0
+Cade Otton        ,    8, TB  ,   10,   9,    81,     2
+Jake Ferguson     ,    9, DAL ,   10,   7,    71,     0
+Taysom Hill       ,   10, NO  ,    2,   2,    36,     0
+Juwan Johnson     ,   10, NO  ,    3,   2,    22,     0
+Foster Moreau     ,   10, NO  ,    2,   0,     0,     0
+Nate Adkins       ,   11, DEN ,    1,   1,    12,     1
+Adam Trautman     ,   11, DEN ,    1,   0,     0,     0
+Will Dissly       ,   13, LAC ,    1,   0,     0,     0
+Tucker Fisk       ,   13, LAC ,    1,   1,     1,     0
+Stone Smartt      ,   13, LAC ,    2,   1,     3,     0
+T.J. Hockenson    ,   14, MIN ,    5,   4,    45,     0
+Josh Oliver       ,   14, MIN ,    2,   1,    26,     0
+Brock Bowers      ,   15, LV  ,    6,   3,    35,     0
+Michael Mayer     ,   15, LV  ,    2,   1,    11,     0
+Daniel Bellinger  ,   16, NYG ,    2,   1,     5,     0
+John Bates        ,   17, WAS ,    1,   1,    14,     0
+Zach Ertz         ,   17, WAS ,    7,   6,    72,     2
+Feleipe Franks    ,   18, CAR ,    1,   1,    12,     0
+Ja'Tavion Sanders ,   18, CAR ,    5,   3,    35,     0
+Tommy Tremble     ,   18, CAR ,    3,   2,    30,     1

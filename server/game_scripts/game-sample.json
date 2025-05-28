@@ -1,0 +1,164 @@
+{
+  "games": [
+    {
+      "game_id": 1,
+      "away_team": "Bears",
+      "home_team": "Lions",
+      "over_under": 47.5,
+      "away_spread": 9.5,
+      "home_spread": -9.5,
+      "away_implied": 19,
+      "home_implied": 28.5
+    },
+    {
+      "game_id": 2,
+      "away_team": "Giants",
+      "home_team": "Cowboys",
+      "over_under": 37.5,
+      "away_spread": 3.5,
+      "home_spread": -3.5,
+      "away_implied": 17,
+      "home_implied": 20.5
+    },
+    {
+      "game_id": 3,
+      "away_team": "Dolphins",
+      "home_team": "Packers",
+      "over_under": 47.5,
+      "away_spread": 3.5,
+      "home_spread": -3.5,
+      "away_implied": 22,
+      "home_implied": 25.5
+    },
+    {
+      "game_id": 4,
+      "away_team": "Raiders",
+      "home_team": "Chiefs",
+      "over_under": 41.5,
+      "away_spread": 13.5,
+      "home_spread": -13.5,
+      "away_implied": 14,
+      "home_implied": 27.5
+    },
+    {
+      "game_id": 5,
+      "away_team": "Chargers",
+      "home_team": "Falcons",
+      "over_under": 47.5,
+      "away_spread": -1.5,
+      "home_spread": 1.5,
+      "away_implied": 24.5,
+      "home_implied": 23
+    },
+    {
+      "game_id": 6,
+      "away_team": "Colts",
+      "home_team": "Patriots",
+      "over_under": 42.5,
+      "away_spread": -2.5,
+      "home_spread": 2.5,
+      "away_implied": 22.5,
+      "home_implied": 20
+    },
+    {
+      "game_id": 7,
+      "away_team": "Texans",
+      "home_team": "Jaguars",
+      "over_under": 43.5,
+      "away_spread": -3.5,
+      "home_spread": 3.5,
+      "away_implied": 23.5,
+      "home_implied": 20
+    },
+    {
+      "game_id": 8,
+      "away_team": "Seahawks",
+      "home_team": "Jets",
+      "over_under": 41.5,
+      "away_spread": -1.5,
+      "home_spread": 1.5,
+      "away_implied": 21.5,
+      "home_implied": 20
+    },
+    {
+      "game_id": 9,
+      "away_team": "Steelers",
+      "home_team": "Bengals",
+      "over_under": 46.5,
+      "away_spread": 3,
+      "home_spread": -3,
+      "away_implied": 21.75,
+      "home_implied": 24.75
+    },
+    {
+      "game_id": 10,
+      "away_team": "Titans",
+      "home_team": "Commanders",
+      "over_under": 44.5,
+      "away_spread": 6.5,
+      "home_spread": -6.5,
+      "away_implied": 19,
+      "home_implied": 25.5
+    },
+    {
+      "game_id": 11,
+      "away_team": "Cardinals",
+      "home_team": "Vikings",
+      "over_under": 44.5,
+      "away_spread": 3.5,
+      "home_spread": -3.5,
+      "away_implied": 20.5,
+      "home_implied": 24
+    },
+    {
+      "game_id": 12,
+      "away_team": "Buccaneers",
+      "home_team": "Panthers",
+      "over_under": 46.5,
+      "away_spread": -6.5,
+      "home_spread": 6.5,
+      "away_implied": 26.5,
+      "home_implied": 20
+    },
+    {
+      "game_id": 13,
+      "away_team": "Rams",
+      "home_team": "Saints",
+      "over_under": 49.5,
+      "away_spread": -2.5,
+      "home_spread": 2.5,
+      "away_implied": 26,
+      "home_implied": 23.5
+    },
+    {
+      "game_id": 14,
+      "away_team": "Eagles",
+      "home_team": "Ravens",
+      "over_under": 50.5,
+      "away_spread": 3,
+      "home_spread": -3,
+      "away_implied": 23.75,
+      "home_implied": 26.75
+    },
+    {
+      "game_id": 15,
+      "away_team": "49ers",
+      "home_team": "Bills",
+      "over_under": 44.5,
+      "away_spread": 6.5,
+      "home_spread": -6.5,
+      "away_implied": 19,
+      "home_implied": 25.5
+    },
+    {
+      "game_id": 16,
+      "away_team": "Browns",
+      "home_team": "Broncos",
+      "over_under": 42.5,
+      "away_spread": 5.5,
+      "home_spread": -5.5,
+      "away_implied": 18.5,
+      "home_implied": 24
+    }
+  ]
+} 

@@ -1,0 +1,74 @@
+name,week,team,rsh,rshyd,rshtd,targ,rec,recyd,rectd
+Keenan Allen,1,CHI,0,0,0,11,4,29,0
+DeAndre Carter,1,CHI,0,0,0,2,1,6,0
+Velus Jones Jr.,1,CHI,2,11,0,1,1,8,0
+DJ Moore,1,CHI,1,14,0,8,5,36,0
+Rome Odunze,1,CHI,0,0,0,4,1,11,0
+Malachi Corley,2,NYJ,0,0,0,1,1,4,0
+Allen Lazard,2,NYJ,0,0,0,4,2,11,0
+Mike Williams,2,NYJ,0,0,0,1,1,19,0
+Garrett Wilson,2,NYJ,1,5,0,6,4,57,0
+Romeo Doubs,3,GB,0,0,0,2,1,18,0
+Jayden Reed,3,GB,2,19,0,6,4,50,0
+Christian Watson,3,GB,0,0,0,2,2,67,0
+Dontayvion Wicks,3,GB,0,0,0,2,0,0,0
+Tyreek Hill,4,MIA,3,19,0,7,4,23,0
+Jaylen Waddle,4,MIA,0,0,0,6,4,36,0
+Malik Washington,4,MIA,0,0,0,1,1,8,0
+Josh Downs,6,IND,1,-1,0,9,7,66,1
+Ashton Dulin,6,IND,0,0,0,1,0,0,0
+Adonai Mitchell,6,IND,0,0,0,4,2,9,0
+Alec Pierce,6,IND,0,0,0,4,0,0,0
+Michael Pittman Jr.,6,IND,0,0,0,5,3,35,1
+Keon Coleman,7,BUF,0,0,0,7,4,125,0
+Amari Cooper,7,BUF,0,0,0,5,4,66,1
+Mack Hollins,7,BUF,0,0,0,1,0,0,0
+Curtis Samuel,7,BUF,0,0,0,1,0,0,0
+Khalil Shakir,7,BUF,0,0,0,7,7,65,0
+Tim Patrick,8,DET,0,0,0,1,0,0,0
+Kalif Raymond,8,DET,0,0,0,2,2,14,1
+Allen Robinson II,8,DET,0,0,0,1,0,0,0
+Amon-Ra St. Brown,8,DET,0,0,0,2,2,7,1
+Isaiah Williams,8,DET,0,0,0,3,2,6,0
+Kendrick Bourne,9,NE,0,0,0,6,4,41,0
+Kayshon Boutte,9,NE,0,0,0,6,2,18,0
+DeMario Douglas,9,NE,0,0,0,9,7,35,0
+Ja'Lynn Polk,9,NE,0,0,0,1,0,0,0
+Derius Davis,10,LAC,1,6,0,1,1,17,0
+Quentin Johnston,10,LAC,0,0,0,2,2,24,1
+Ladd McConkey,10,LAC,0,0,0,2,2,52,0
+Joshua Palmer,10,LAC,0,0,0,2,1,36,0
+Jalen Reagor,10,LAC,2,-2,0,1,0,0,0
+Jordan Addison,11,MIN,0,0,0,8,3,61,1
+Justin Jefferson,11,MIN,0,0,0,8,6,81,0
+Jalen Nailor,11,MIN,0,0,0,2,0,0,0
+Brandon Powell,11,MIN,0,0,0,1,1,13,0
+Trent Sherfield Sr.,11,MIN,0,0,0,1,1,16,0
+Nico Collins,12,HOU,0,0,0,9,5,92,1
+Tank Dell,12,HOU,0,0,0,5,3,72,0
+Xavier Hutchinson,12,HOU,0,0,0,1,0,0,0
+John Metchie III,12,HOU,0,0,0,3,1,6,0
+Robert Woods,12,HOU,0,0,0,1,1,8,0
+Dyami Brown,13,WAS,1,4,0,5,4,35,0
+Noah Brown,13,WAS,0,0,0,4,3,27,0
+Luke McCaffrey,13,WAS,0,0,0,2,2,13,0
+Terry McLaurin,13,WAS,0,0,0,8,8,73,2
+Olamide Zaccheaus,13,WAS,0,0,0,3,3,14,0
+Devin Duvernay,14,JAX,1,-7,0,3,3,8,0
+Brian Thomas Jr.,14,JAX,0,0,0,12,8,86,0
+Parker Washington,14,JAX,0,0,0,2,2,15,0
+Ja'Marr Chase,15,CIN,0,0,0,11,9,94,0
+Tee Higgins,15,CIN,0,0,0,8,5,88,1
+Andrei Iosivas,15,CIN,0,0,0,4,1,5,0
+Josh Downs,16,IND,0,0,0,4,3,61,1
+Adonai Mitchell,16,IND,0,0,0,1,1,36,0
+Michael Pittman Jr.,16,IND,0,0,0,3,2,19,0
+Devin Duvernay,17,JAX,0,0,0,1,1,4,0
+Tim Jones,17,JAX,0,0,0,1,1,11,0
+Brian Thomas Jr.,17,JAX,1,18,0,10,7,91,1
+Parker Washington,17,JAX,0,0,0,3,3,31,1
+Nico Collins,18,HOU,0,0,0,5,5,38,1
+Xavier Hutchinson,18,HOU,0,0,0,2,1,5,0
+Diontae Johnson,18,HOU,0,0,0,4,2,12,0
+John Metchie III,18,HOU,0,0,0,4,2,24,0
+Robert Woods,18,HOU,0,0,0,3,2,39,0
